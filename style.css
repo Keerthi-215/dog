@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #dd00ff;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #e3f2fd;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+section#meet-our-dogs-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+figure {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  width: 180px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+figure img:hover {
+  transform: scale(1.05);
+}
+
+figcaption {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p,
+  p {
+    font-size: 1rem;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
